@@ -23,6 +23,7 @@ The course also introduces the MVC (Model View Controller) architecture for web 
 An overview of other popular languages and frameworks such as LESS, Ruby on Rails, ASP.NET MVC, and PHP are also provided to increase the breadth of the students’ knowledge in the field.
 
 Note, this course is taught under the assumption that the student has programming knowledge and experience in an object-oriented language such as C++ or Java, as it JavaScript is used extensively throughout the semester. The emphasis of this course is web development from an application programmer’s perspective. It is a technical course, not suitable for students without an adequate background in computer science.
+<hr class="print-page"/>
 
 ## Content Map
 We'll be bouncing back and forth between server-side and client-side technologies throughout the semester.  On the server (right side of the picture below), all of our work will be based on Node.js, and we'll start out by looking at JavaScript fundamentals in detail.  We'll migrate to looking at frameworks (express), data access (MongoDB), and more advanced topics later in the semester.
@@ -30,6 +31,7 @@ We'll be bouncing back and forth between server-side and client-side technologie
 In the beginning of the term, client-side (left side of picture) will be focused on core technologies - HTML, CSS, and JavaScript/jQuery.  Towards the end of the semester we'll look at big productivity boosters like Twitter's Bootstrap and Facebooks' React.
 
 <img src="Content-Map.png"/>
+<hr class="print-page"/>
 
 # Course Requirements
 This course is taught under the assumption that the student has programming knowledge and experience in an object-oriented language such as C++ or Java, as it JavaScript is used extensively throughout the semester. The emphasis of this course is web development from an application programmer’s perspective. **It is a technical course, not suitable for students without an adequate background in computer science.**
@@ -91,32 +93,29 @@ All slides, code, and any other material for this class will always be posted to
 </div>
 
 
-
-## Code Examples
-TBD
-
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  
 
 |Link to Homework Assignment| Due Date 
 |--|----
-| [Homework 1](../hw/Homework1.html) |  TBD
-| [Homework 2](../hw/Homework2.html) |  TBD
-| [Homework 3](../hw/Homework3.html) |  TBD 
+| [Homework 1](https://docs.google.com/document/d/1TFvoSgDqj26uk0F_ffVI600D0184hPugJYQURaImD4c/pub) |  9/17
+| [Homework 2](https://docs.google.com/document/d/1vD8UQT-ot7BDysyKRHCsvrRHsOkxv-rYCnnkpmbnNnc/pub) |  9/23
+| [Homework 3](https://docs.google.com/document/d/1SY9-yYsalcCoK1JLLHJqcuBNH-lkB3KM1J3xZ2g3BgM/pub) |  10/26
 
 |Link to Projects| Due Date 
 |--|----
-| [Project 1](../hw/Project1.html) |  TBD
-| [Project 2](../hw/Project2.html) |  TBD
+| [Project 1](https://docs.google.com/document/d/1P_cGhz1tsRNYKk7KvCRNXDdZwdyP70iv3CJ2Zc5hmDU/pub) |  10/19
+| [Project 2](https://docs.google.com/document/d/1-5Oigr6RwMwN3gMvgz-oDwA315uuJ7srt8FYPRyhDwE/pub) |  11/9
 
-
+# Final Project
+The final project will be due the same day as our scheduled final exam.  I will announce the full details of the project in mid-November.  
 
 # Grading 
 
 | % | Activity
 |------------------:|:---------------
 |5%| Attendance
-|15%| Homework Assignments (4-6)
+|15%| Homework Assignments (3)
 |20%| Programming Projects (2)
 |40%| Exams (2)
 |20%| Final Project (in place of Final Exam)
