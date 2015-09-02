@@ -40,6 +40,7 @@ http.createServer(function(req, res) {
   try {
     stats = fs.lstatSync(filename); // throws if path doesn't exist
   } catch (e) {
+    console.log("\tResponse is 404, not found");
     res.writeHead(404, {'Content-Type': 'text/plain'});
     res.write('404 Not Found\n');
     res.end();
@@ -50,6 +51,7 @@ http.createServer(function(req, res) {
   if (stats.isFile()) {
     // path exists, is a file
     var mimeType = mimeTypes[path.extname(filename).split(".")[1]];
+    console.log("\tResponse is 200, serving file");
     res.writeHead(200, {'Content-Type': mimeType} );
 
     var fileStream = fs.createReadStream(filename);
@@ -62,6 +64,7 @@ http.createServer(function(req, res) {
     // we could see if there is an index.html at this location
     // (try this as an exercise).  For now, do nothing... return
     // not found.
+    console.log("\tResponse is 404, not found (directory)");
     res.writeHead(404, {'Content-Type': 'text/plain'});
     res.write('404 Not Found\n');
     res.end();
