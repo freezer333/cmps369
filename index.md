@@ -94,11 +94,15 @@ All slides, code, and any other material for this class will always be posted to
 
 # In-Class Code
 
-## Networking Examples  (Module 01)
+## Networking Examples  (Lecture 2 - 3)
 - [tcpServer.cpp](code/server-demos/tcpServer.cpp)
 - [tcpClient.cpp](code/server-demos/tcpClient.cpp)
 - [tcp_client.js](code/server-demos/tcp_client.js)
 - [tcp_server.js](code/server-demos/tcp_server.js)
+- [http.js](code/server-demos/http.js)
+
+## HTML Service (Lectures 3-7)
+- [03_http_file_demo](code/03_http_file_demo/index.html)
 
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guessing game - pure JavaScript</title>
+    <link rel='stylesheet' type = 'text/css' href='guess.css'/>
+
+    <!-- Note, we are using jquery CDN to get the code - we could also download and serve it ourselves. -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- Its important to include jquery before anything that will use it.-->
+    <script src='guess_jquery.js'></script>
+
+
+
+<!--
+
+    What you should notice about this example, as compared to the pure javascript example, is the absense of many of the id's and
+    the event handlers.  They've been tucked away in guess_jquery.js, which uses the selectors in jquery to do most of this.
+
+    The only things we have left are the id's for the individual "pages".
+-->
+
+</head>
+<body>
+    <section id='start_page'>
+        <div class='instructions'>
+            <p>
+                Welcome to our guessing game.  The server is thinking of a number between 1 and 10 - try to guess what it is!
+            </p>
+        </div>
+        <form>
+            <div>
+                <label for="guess">Your guess:  </label>
+                <input type="text" name="guess"/>
+                <button type="button">Guess</button>
+            </div>
+        </form>
+    </section>
+
+
+    <section id='check_page'>
+        <form>
+            <div>
+                <label for="guess">Your next guess:  </label>
+                <input type="text" name="guess"/>
+                <button type="button">Guess</button>
+
+                <ul>
+        
+                </ul>
+            </div>
+        </form>
+    </section>
+
+    <section id='success_page'>
+        <h1> Fantastic!</h1>
+        <a href='#' >play again</a>
+    </section>
+</body>
+</html>
