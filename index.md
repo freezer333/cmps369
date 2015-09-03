@@ -92,6 +92,8 @@ All slides, code, and any other material for this class will always be posted to
     <iframe src="https://docs.google.com/spreadsheets/d/1mp40LwkelKq8KOVs5gXJL83qmy8G8vNUOTd0DjkbL2k/pubhtml?gid=103028565&single=true" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:1200px;width:100%;" height="100%" width="100%"></iframe>
 </div>
 
+<p><a href="../slides_pdf">Slides in PDF form (for printing)</a></p>
+
 # In-Class Code
 
 ## Networking Examples  (Lecture 2 - 3)
