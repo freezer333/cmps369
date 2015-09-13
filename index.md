@@ -11,7 +11,7 @@ Office&nbsp;&nbsp;G315
 Phone&nbsp;&nbsp;(201) 684-7726
 Email&nbsp;&nbsp;[sfrees@ramapo.edu](mailto:sfrees@ramapo.edu)
 
-**Office Hours:**   Monday and Thursday, 4-5pm
+**Office Hours:**   Monday 12:45-1:45pm and Thursday 4-5pm
 
 ## Course Description
 This course provides in-depth treatment of the critical languages, design patterns, and technologies underpinning all of modern web application development. The basics of networking, along with the details of the HTTP protocol are introduced. HTML (through version 5), CSS (through version 3) are presented from the perspective of an application developer.
