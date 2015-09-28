@@ -1,0 +1,12 @@
+{
+  "name": "guessing-game",
+  "author": "cmps369",
+  "dependencies": {
+    "connect": "*",
+    "morgan":"*",
+    "serve-static" :"*",
+    "ejs": "*",
+    "body-parser":"*"
+  }
+}
+

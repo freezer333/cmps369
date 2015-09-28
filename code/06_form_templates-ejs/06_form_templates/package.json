@@ -3,7 +3,9 @@
   "author": "cmps369",
   "description": "displays submitted form parameters via ejs",
   "dependencies": {
-    "connect": "~2.13.0",
-    "ejs": "~0.8.5"
+    "connect": "*",
+    "morgan":"*",
+    "serve-static" :"*",
+    "ejs": "*"
   }
 }
