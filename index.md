@@ -106,6 +106,11 @@ All slides, code, and any other material for this class will always be posted to
 ## HTML Service (Lectures 3-7)
 - [03_http_file_demo](code/03_http_file_demo/index.html)
 
+## HTML Form processing and EJS Templates (Lectures 8-9)
+- [05_form_processing_demo](code/05_form_processing.tar.gz)
+- [06_form_templates_demo](code/06_form_templates.tar.gz)
+- [07_guessing_game_1_demo](code/07_guessing1.tar.gz)
+
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  
 
