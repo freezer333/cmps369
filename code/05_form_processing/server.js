@@ -8,7 +8,7 @@
 	package into this directory.
 
 	From the command line, while in the same directory as this file, 
-	type "npm install connect".
+	type "npm install".
 
 	Then to run, just type "node server.js"
 
@@ -18,11 +18,13 @@
 
 
 var connect = require("connect");
+var logger = require("morgan");
+var serve_static = require("serve-static");
 var http = require("http");
 
 var app = connect()
-  .use(connect.logger('dev'))
-  .use(connect.static('public'))
+  .use(logger('dev'))
+  .use(serve_static('public'))
   .use(serve)
 
 http.createServer(app).listen(3000);
