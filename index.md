@@ -110,6 +110,7 @@ All slides, code, and any other material for this class will always be posted to
 - [05_form_processing_demo](code/05_form_processing.tar.gz)
 - [06_form_templates_demo](code/06_form_templates.tar.gz)
 - [07_guessing_game_1_demo](code/07_guessing1.tar.gz)
+- [08_guessing_sessions](code/08_guessing_sessions.zip)
 
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  
