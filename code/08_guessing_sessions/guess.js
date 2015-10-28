@@ -28,6 +28,11 @@ function serve (req, res) {
         render (res, "start", {});
     }
     else if ( req.url == "/guess") {
+        if ( !req.session.value) {
+            res.writeHead(302, {'Location':'/start'});
+            res.end();
+            return;
+        }
         var value = req.session.value;
 
         var guess = req.body.guess;
