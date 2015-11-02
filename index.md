@@ -92,7 +92,9 @@ All slides, code, and any other material for this class will always be posted to
     <iframe src="https://docs.google.com/spreadsheets/d/1mp40LwkelKq8KOVs5gXJL83qmy8G8vNUOTd0DjkbL2k/pubhtml?gid=103028565&single=true" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:1200px;width:100%;" height="100%" width="100%"></iframe>
 </div>
 
+## Other slides/Resources
 <p><a href="slides_pdf">Slides in PDF form (for printing)</a></p>
+<p><a href="https://docs.google.com/presentation/d/1HfTdhszJ43I1lIgbff8VvQ4jQudB3Z4IPqJ56IqMcr4/pub?start=false&loop=false&delayms=3000">Exam 1 Review Slides</a></p>
 
 # In-Class Code
 

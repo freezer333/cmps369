@@ -1,15 +1,14 @@
 var connect = require('connect');
 var http = require('http');
+var logger = require("morgan"); 
+var serve_static = require("serve-static"); 
 
 
 // Note - we're just serving straight out of public... running node really isn't even necessary...
 
 var app = connect()
-    .use (connect.logger('dev'))
-    .use (connect.cookieParser())
-    .use (connect.session( { secret : 'cmps369'}))
-    .use (connect.bodyParser())
-    .use (connect.static('public'));
+    .use (logger('dev'))
+    .use (serve_static('public'));
 
 http.createServer(app).listen(3000);
 
