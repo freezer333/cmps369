@@ -1,13 +1,18 @@
 var connect = require('connect');
+var logger = require("morgan"); 
+var serve_static = require("serve-static"); 
 var http = require('http');
 var ejs = require('ejs');
+var bodyparse = require('body-parser');
+var cookieparser = require('cookie-parser');
+var ex_session = require('express-session');
 
 var app = connect()
-    .use (connect.logger('dev'))
-    .use (connect.cookieParser())
-    .use (connect.session( { secret : 'cmps369'}))
-    .use (connect.bodyParser())
-    .use (connect.static('public'))
+    .use (logger('dev'))
+    .use (cookieparser())
+    .use (ex_session( { secret : 'cmps369'}))
+    .use (bodyparse())
+    .use (serve_static('public'))
     .use (serve);
 
 http.createServer(app).listen(3000);
