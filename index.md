@@ -126,7 +126,7 @@ There are three homework assignments and two larger programming projects assigne
 |Link to Projects| Due Date 
 |--|----
 | [Project 1](https://docs.google.com/document/d/1P_cGhz1tsRNYKk7KvCRNXDdZwdyP70iv3CJ2Zc5hmDU/pub) |  10/21
-| [Project 2](https://docs.google.com/document/d/1-5Oigr6RwMwN3gMvgz-oDwA315uuJ7srt8FYPRyhDwE/pub) |  11/9
+| [Project 2](https://docs.google.com/document/d/1-5Oigr6RwMwN3gMvgz-oDwA315uuJ7srt8FYPRyhDwE/pub) |  11/18
 
 # Final Project
 The final project will be due the same day as our scheduled final exam.  I will announce the full details of the project in mid-November.  
