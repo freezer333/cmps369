@@ -112,6 +112,9 @@ All slides, code, and any other material for this class will always be posted to
 - [07_guessing_game_1_demo](code/07_guessing1.tar.gz)
 - [08_guessing_sessions](code/08_guessing_sessions.zip)
 
+## JavaScript Examples
+- [09_js_examples](code/09_js_examples)
+
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  
 
