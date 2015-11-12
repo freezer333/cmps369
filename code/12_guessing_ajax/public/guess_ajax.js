@@ -11,8 +11,6 @@ $(document).ready ( function() {
         var input_value = $(this).siblings('input').val();
         console.log('guess = ' + input_value);
 
-       
-
         var jax = $.post('guess', { guess : input_value });
         jax.done( function (data) {
             if ( data.result == 'success' ) {

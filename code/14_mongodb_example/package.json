@@ -1,0 +1,8 @@
+{
+  "name": "mongo-example",
+  "author": "cmps369",
+  "dependencies": {
+    "mongodb": "*"
+  }
+}
+
