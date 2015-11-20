@@ -116,6 +116,13 @@ All slides, code, and any other material for this class will always be posted to
 
 ## JavaScript Examples
 - [09_js_examples](code/09_js_examples)
+- [10_guessing_spas](code/10_guessing_spas.zip)
+- [11_jquery](code/11_jquery)
+- [12_guessing_ajax](code/12_guessing_ajax.zip)
+
+## Database Examples
+- [14_mongodb_example](code/14_mongodb_example.zip)
+- [15_guessing_mongo](code/15_guessing_mongo.zip)
 
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  

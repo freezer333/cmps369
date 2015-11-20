@@ -7,7 +7,8 @@ MongoClient.connect(url, function(err, db) {
 
   var collection = db.collection('newcollection');
 
-  collection.find({'$and': [ {a : 3}, {b: {"$gte" : 3} } ] }).toArray(function (err, result) {
+  var q = {'$and': [ {a : 3}, {b: {"$gte" : 3} } ] };
+  collection.find().toArray(function (err, result) {
       if (err) {
         console.log(err);
       } else if (result.length) {

@@ -107,7 +107,6 @@ function init(req, done) {
             console.log("Game ID => " + req.session.game_id);
             done();
         }
-        
     });
 }
 

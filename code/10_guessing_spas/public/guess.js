@@ -9,13 +9,6 @@ function init_game() {
     clearGuesses();
 }
 
-function clearGuesses() {
-    var ps = document.getElementsByTagName('li');
-    for ( var i = ps.length-1; i >= 0; i-- ) {
-        var p = ps[i];
-        p.parentNode.removeChild(p);
-    }
-}
 
 function on_guess(input_id) {
     var input = document.getElementById(input_id);
@@ -59,6 +52,15 @@ function showSuccess() {
     console.log("Showing success page");
     mask('none', 'none', 'block');
 }
+
+function clearGuesses() {
+    var ps = document.getElementsByTagName('li');
+    for ( var i = ps.length-1; i >= 0; i-- ) {
+        var p = ps[i];
+        p.parentNode.removeChild(p);
+    }
+}
+
 
 
 function mask(start, check, success) {
