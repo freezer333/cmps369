@@ -124,6 +124,9 @@ All slides, code, and any other material for this class will always be posted to
 - [14_mongodb_example](code/14_mongodb_example.zip)
 - [15_guessing_mongo](code/15_guessing_mongo.zip)
 
+## Express Examples
+- [16_guessing_express.zip](code/16_guessing_express.zip)
+
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  
 
