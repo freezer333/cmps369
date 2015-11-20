@@ -126,6 +126,7 @@ All slides, code, and any other material for this class will always be posted to
 
 ## Express Examples
 - [16_guessing_express.zip](code/16_guessing_express.zip)
+- [17_guessing_jade.zip](code/17_guessing_jade.zip)
 
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  
