@@ -1,0 +1,60 @@
+@instructions_color : #FFFFB8;
+@form_color: #E6E6E6;
+@high_color: #A64D4D;
+@low_color: #8099E6;
+@border_radius: 10px;
+@border_width: 4px;
+@default_padding:1em;
+
+
+.content_container(@back_color) {
+    padding:@default_padding;
+    border-style: solid;
+    border-width: @border_width;
+    background-color:@back_color;
+    border-color: darken(@back_color, 40%);
+    border-radius: @border_radius;
+}
+
+
+body {
+    font-family: "Verdana", arial;
+    padding: @default_padding * 2;
+}
+
+
+div {
+    .content_container(@form_color);
+    width:450px;
+}
+
+.instructions {
+    .content_container(@instructions_color);
+    float:right;
+    width:250px;
+}
+
+form {
+    text-align:right;
+    padding:@default_padding;
+}
+
+button {
+    margin:@default_padding;
+    padding:@default_padding;   
+}
+
+li {
+    padding:@default_padding * 0.5;
+    text-align:center;
+    list-style-type:none;
+    width:300px;
+    margin-bottom:@default_padding * 0.5;
+}
+
+.highGuess {
+    .content_container(@high_color);
+}
+.lowGuess {
+    .content_container(@low_color);
+}

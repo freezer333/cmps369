@@ -127,6 +127,7 @@ All slides, code, and any other material for this class will always be posted to
 ## Express Examples
 - [16_guessing_express.zip](code/16_guessing_express.zip)
 - [17_guessing_jade.zip](code/17_guessing_jade.zip)
+- [18_guessing_less.zip](code/18_guessing_less.zip)
 
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  
@@ -143,7 +144,7 @@ There are three homework assignments and two larger programming projects assigne
 | [Project 2](https://docs.google.com/document/d/1-5Oigr6RwMwN3gMvgz-oDwA315uuJ7srt8FYPRyhDwE/pub) |  11/18
 
 # Final Project
-The final project will be due the same day as our scheduled final exam.  I will announce the full details of the project in mid-November.  
+The final project will be due the same day as our scheduled final exam.  The full details can be found [here](https://docs.google.com/document/d/1lfnxI3C_44m9MwZaBxAtfBb9w6jciJvoIsSQw40mXvg/pub).  You will show me your running code during the final exam period.  The final project is **instead** of the final exam.
 
 # Grading 
 
