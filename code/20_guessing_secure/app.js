@@ -24,7 +24,7 @@ bcrypt.genSalt(10, function(err, salt) {
 });
 
 
-// Note, I hashed the password "password" and stored it here.  In a system that allowed users to register, 
+// Note, I hashed the password "password" and stored it here.  In a system that allowed users to register,
 // the user would type a plain text password ("password") and your code would hash it and store in a database.
 
 
@@ -54,8 +54,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 app.use(passport.initialize());
-app.use(passport.session()); 
-app.use(flash()); // passport stores reason for invalid login in flash.
+app.use(passport.session());
+
+
+
+
+
 passport.use(new LocalStrategy(
     {
       usernameField: 'username',
@@ -98,19 +102,27 @@ passport.use(new LocalStrategy(
 
 // Posts to login will have username/password form data.
 // passport will call the appropriate functions...
-routes.post('/login', 
+routes.post('/login',
     passport.authenticate('local', { successRedirect: '/start',
-                                     failureRedirect: '/',
-                                     failureFlash: true })
+                                     failureRedirect: '/login_fail',
+                                  })
 );
 
-app.use('/', routes);
+routes.get('/login', function (req, res) {
+  res.render('login', {});
+});
 
-var server = app.listen(3000, function() {
-  console.log('Express server listening on port ' + server.address().port);
+routes.get('/login_fail', function (req, res) {
+  res.render('login_fail', {});
+});
+
+routes.get('/logout', function (req, res) {
+  req.logout();
+  res.redirect('/login');
 });
 
 
+app.use('/', routes);
 
 
-
+module.exports = app;

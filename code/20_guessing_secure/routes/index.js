@@ -8,25 +8,25 @@ exports.timesPlayed = timesPlayed;
 
 router.get('/stats', function (req, res) {
 	res.render('stats', {
-		timesPlayed : timesPlayed, 
+		timesPlayed : timesPlayed,
 		timesCorrect : timesCorrect });
 });
 
 
-var ensureLoggedIn = function(req, res) {
+var ensureLoggedIn = function(req, res, next) {
 	if ( req.user ) {
 		next();
 	}
 	else {
-		res.sendRedirect("/login");
+		res.redirect("/login");
 	}
 }
 
-router.get('/start', function (req, res) {
+router.get('/start', ensureLoggedIn, function (req, res) {
 	var value = Math.floor((Math.random()*10)+1);
     req.session.value = value;
     req.session.results = [];
-    
+
     console.log("The secret number is %d", req.session.value);
     console.log(req.session);
     timesPlayed++;
@@ -34,10 +34,10 @@ router.get('/start', function (req, res) {
 });
 
 
-router.post('/guess', function (req, res) {
+router.post('/guess', ensureLoggedIn, function (req, res) {
 	var guess = req.body.guess;
 	var value = req.session.value;
-	
+
 	if ( guess > value ) {
 		req.session.results.push( { guess : guess, result : "too high"});
 		res.render('guess', { results : req.session.results});
@@ -51,7 +51,7 @@ router.post('/guess', function (req, res) {
 	}
 });
 
-router.get('/success', function (req, res) {
+router.get('/success', ensureLoggedIn, function (req, res) {
 	timesCorrect++;
 	res.render('success');
 });
