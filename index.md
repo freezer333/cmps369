@@ -129,16 +129,19 @@ All slides, code, and any other material for this class will always be posted to
 - [17_guessing_jade.zip](code/17_guessing_jade.zip)
 - [18_guessing_less.zip](code/18_guessing_less.zip)
 
+## Authentication / Passport example
+- [20_guessing_secure.zip](code/20_guessing_secure.zip)
+
 # Homework Assignments
 There are three homework assignments and two larger programming projects assigned for this course.  
 
-|Link to Homework Assignment| Due Date 
+|Link to Homework Assignment| Due Date
 |--|----
 | [Homework 1](https://docs.google.com/document/d/1TFvoSgDqj26uk0F_ffVI600D0184hPugJYQURaImD4c/pub) |  9/21
 | [Homework 2](https://docs.google.com/document/d/1vD8UQT-ot7BDysyKRHCsvrRHsOkxv-rYCnnkpmbnNnc/pub) |  9/24
 | [Homework 3](https://docs.google.com/document/d/1SY9-yYsalcCoK1JLLHJqcuBNH-lkB3KM1J3xZ2g3BgM/pub) |  10/26
 
-|Link to Projects| Due Date 
+|Link to Projects| Due Date
 |--|----
 | [Project 1](https://docs.google.com/document/d/1P_cGhz1tsRNYKk7KvCRNXDdZwdyP70iv3CJ2Zc5hmDU/pub) |  10/21
 | [Project 2](https://docs.google.com/document/d/1-5Oigr6RwMwN3gMvgz-oDwA315uuJ7srt8FYPRyhDwE/pub) |  11/18
@@ -146,7 +149,7 @@ There are three homework assignments and two larger programming projects assigne
 # Final Project
 The final project will be due the same day as our scheduled final exam.  The full details can be found [here](https://docs.google.com/document/d/1lfnxI3C_44m9MwZaBxAtfBb9w6jciJvoIsSQw40mXvg/pub).  You will show me your running code during the final exam period.  The final project is **instead** of the final exam.
 
-# Grading 
+# Grading
 
 | % | Activity
 |------------------:|:---------------
